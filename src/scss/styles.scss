@@ -1,15 +1,54 @@
 $fontColor: #0091aa;
 $colorHeading: #be4a14;
+$colorBody: #000000;
 #content  // div with id: content
 {
     color: $fontColor;
 }
 
-h2
-{
+h1{
     color: $colorHeading;
 }
 
-h1{
-    @extend h2;
+select {
+    font-size: large;
 }
+
+input {
+    font-size: large;
+}
+
+
+.lowercase {
+    font-size: large;
+    color: #000000;
+    text-shadow: 2px 2px 1px #914141;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;}
+
+.uppercase {
+    font-size: large;
+    color: #000000;
+    text-shadow: 2px 2px 1px #3b6a5e;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;}
+
+    table{
+        width: 1000px;
+        font-size: large;
+    }
+    
+    td, th{
+        border: 3px solid #000000;
+    }
+    
+    tr:nth-child(odd) {
+        font-size: large;
+        background-color: #b0e2b8;
+      }
+
+    tr:nth-child(even) {
+        font-size: large;
+        background-color: #eeddad;
+      }
+
